@@ -14,6 +14,14 @@ The program Emulates the ALife classic program Conway's Game of Life. The game h
 
 ## Usage
 To run the code after downloading symply type the following
+```
     python ConwayGameOfLife.py numRows numCols file.txt
+```
 Where numRows and numCols are respectively the number of rows and columns on the board, and file is the link to an external file containing the populated cells of the game.
-The file must have two integers separated by space 
+The file must have two integers separated by a single space. See example:
+```
+1 2
+2 3
+```
+It represents two living cells one in line 1 and column 2 and the second in line 2 column 2.
+After this, to run each generation just press enter.
